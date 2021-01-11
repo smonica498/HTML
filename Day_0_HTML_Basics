@@ -1,21 +1,26 @@
 HTML: Hypertext markup language
 
+
 Tags:
 <p> opening tage at the beginning of the paragraph
 </p> closing tag
 
+
 Element:
 <p>Content.</p>
 This is an element (emelemt may or may not contain closing tag)
+
 
 <p>,<h>,<article>:
 <p>Paragraph</p>
 <h1>headline</h1>
 <article>article.</article>
 
+
 <em>:
 <p>para<em>emphasized</em>paracomplete</p>
 <em> emphasized
+
 
 Example:
 <article>
@@ -25,8 +30,10 @@ Example:
  <p>thirdpara<em>emphasized</em>para</p>
 <article>
 
+
 Codepen website:
 https://codepen.io/pen/
+
 
 Headlines: (different font size with h1 being the biggest and h6 smallest)
 <h1> First level headline
@@ -35,6 +42,7 @@ Headlines: (different font size with h1 being the biggest and h6 smallest)
 <h4>
 <h5>
 <h6> Small level headline
+
 
 Bold and italics:
 verball emphasized vs visually distinguished
@@ -46,6 +54,77 @@ Bold:
 <b> Bold
 
 
+Lists:
+<li> List item 
+Unordered - <ul>
+Ordered - <ol>
+Definition/Description list - (key,value) part - 
+<dl>definition list
+ <dt>definition term</dt>
+  <dd>definition</dd>
+  <dd>moredefinition</dd>
+ <dt>secondterm</dt>
+  <dd>define</dd>
+</dl>
+
+
+Quotes:
+<blockquote>
+<p>para</p>
+<cite>-Name</cite>
+</blockquote>
+Curly quote - <q>
+
+
+Inline Elements:
+<q>
+<strong>
+<b>
+<i>
+<em>
+
+
+Block level elements:
+<blockquote>
+<p>
+<ul>
+
+
+Dates and Times:(Any format)
+<time>May 4, 1998</time>
+<elementname attribute="">
+<time datetime="2025-05-08">May 8,2025</time>
+datetime attribute - YYYY-MM-DD
+Time stamps - 2 hours ago or Tomorrow
+<time datetime="2025-05-08">2 days ago</time>
+<time datetime="2025-05-08">Tomorrow</time>
+Time: hh-mm-ss.ddd
+hh-mm-ss.ddd+-hh:mm
+<time datetime="20:15">8:15 pm</time>
+<time datetime="12:30">Half past noon</time>
+First date and then time. in betwwen can put T or space
+
+
+Code, pre and br:
+<code> - In line element
+
+HTML Entities:
+&alt <
+&gt; >
+
+<br> Line break at the end of each line.
+<pre> Pre tag for proper indentation and spacing
+
+
+Superscripts: <sup> above eg. x square, <p>footnote.<sup>2</sup></p>
+Subscripts: <sub> below the baseline eg. <p>H<sub>2</sub>0</p> 
+
+
+MathML: Markup language for math
+
+
+Small texts: text that has small meaning
+<small>@ Ownersip of content</small>
 
 
 
