@@ -1,0 +1,52 @@
+HTML: Hypertext markup language
+
+Tags:
+<p> opening tage at the beginning of the paragraph
+</p> closing tag
+
+Element:
+<p>Content.</p>
+This is an element (emelemt may or may not contain closing tag)
+
+<p>,<h>,<article>:
+<p>Paragraph</p>
+<h1>headline</h1>
+<article>article.</article>
+
+<em>:
+<p>para<em>emphasized</em>paracomplete</p>
+<em> emphasized
+
+Example:
+<article>
+ <h1>headline</h1>
+ <p>firstpara</p>
+ <p>secondpara</p>
+ <p>thirdpara<em>emphasized</em>para</p>
+<article>
+
+Codepen website:
+https://codepen.io/pen/
+
+Headlines: (different font size with h1 being the biggest and h6 smallest)
+<h1> First level headline
+<h2>
+<h3>
+<h4>
+<h5>
+<h6> Small level headline
+
+Bold and italics:
+verball emphasized vs visually distinguished
+Italics:
+<i> visual-only italics
+<em> Emphasis italics
+Bold:
+<strong> importance, seriousness, urgency
+<b> Bold
+
+
+
+
+
+
